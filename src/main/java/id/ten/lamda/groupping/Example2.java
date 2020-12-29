@@ -1,7 +1,5 @@
 package id.ten.lamda.groupping;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.util.Arrays;
 import java.util.LinkedHashMap;
@@ -12,7 +10,6 @@ import java.util.stream.Collectors;
 
 public class Example2 {
 
-    private static Logger LOG = LoggerFactory.getLogger(Example2.class);
 
     public static void main(String[] args) {
         List<String> items = Arrays.asList("apple", "apple", "banana",
